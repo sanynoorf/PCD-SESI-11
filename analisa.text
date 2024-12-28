@@ -1,0 +1,9 @@
+Pada hasil yang ditampilkan, gambar pertama menunjukkan gambar asli dalam skala abu-abu, 
+di mana semua detail dalam gambar masih terlihat jelas tanpa adanya proses tambahan. 
+Skala abu-abu ini mempermudah analisis karena perbedaan kecerahan setiap bagian terlihat lebih jelas. 
+Gambar kedua adalah hasil dari deteksi tepi menggunakan metode Sobel, yang berfungsi untuk menemukan 
+garis tepi objek dalam gambar. Garis-garis putih yang terlihat adalah tepi dari objek seperti karakter 
+dan elemen lainnya, sementara latar belakangnya berwarna hitam. Gambar ketiga merupakan hasil segmentasi 
+dengan thresholding, di mana gambar diubah menjadi hitam-putih berdasarkan tingkat kecerahan tertentu. 
+Bagian yang lebih terang dari gambar menjadi putih, sedangkan sisanya menjadi hitam, sehingga bentuk 
+objek utama lebih terlihat jelas.
